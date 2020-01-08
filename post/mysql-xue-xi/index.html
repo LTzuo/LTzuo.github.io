@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | LTzuo</title>
+<title>mysql学习 | LTzuo</title>
 <meta name="description" content="观沧海 乌云不在" />
 <link rel="shortcut icon" href="https://ltzuo.github.io/favicon.ico?v=1578475030171">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -77,11 +77,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              mysql学习
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-01-08
               </span>
               <span>
                 1 min read
@@ -91,36 +91,83 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>瞎搞</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>博主就是我本人啦</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>没有</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>没事儿别联系我</p>
+                <ul>
+<li>在安装好mysql的前提下（设置好开机自启动）</li>
+<li>校验mysql状态</li>
+</ul>
+<pre><code> service mysqld status
+</code></pre>
+<ul>
+<li>用户登录</li>
+</ul>
+<pre><code>mysql -u(用户名) -p(密码)
+</code></pre>
+<ul>
+<li>查看数据库</li>
+</ul>
+<pre><code> show databases;
+</code></pre>
+<ul>
+<li>使用（切换）数据库</li>
+</ul>
+<pre><code> use (数据库名称)
+</code></pre>
+<ul>
+<li>查看表</li>
+</ul>
+<pre><code> show tables
+</code></pre>
+<ul>
+<li>查看表结构</li>
+</ul>
+<pre><code>desc 表名
+</code></pre>
+<ul>
+<li>约束条件</li>
+</ul>
+<pre><code>create table 表名称(
+    字段名称 数据类型[(长度) 约束条件1 约束条件2 ...],
+    ...
+);
+
+</code></pre>
+<p><a href="https://www.cnblogs.com/zj420255586/p/11581251.html#unsigned---%E6%97%A0%E7%AC%A6%E5%8F%B7">1. unsigned - 无符号</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#zerofill---0%E5%A1%AB%E5%85%85">2. zerofill - 0填充</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#not-mull---%E9%9D%9E%E7%A9%BA">3. not mull - 非空</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#default---%E9%BB%98%E8%AE%A4%E5%80%BC">4. default - 默认值</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#unique---%E5%94%AF%E4%B8%80">5. unique - 唯一</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#auto_increment---%E8%87%AA%E5%A2%9E">6. auto_increment - 自增</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#primary-key---%E4%B8%BB%E9%94%AE">7. primary key - 主键</a><br>
+<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#foreign-key---%E5%A4%96%E9%94%AE">8. foreign key - 外键</a></p>
+<ul>
+<li>删除表 drop 表名；</li>
+<li>修改表结构</li>
+</ul>
+<pre><code>  #添加列       
+  alter  table 表名 add 字段 类型(长度) 约束;
+  #修改列        
+  alter table 表名 modify 字段 类型(长度)约束；
+</code></pre>
+<p>9、删除表内容   delete from students;<br>
+delete from students where id=1;</p>
 
               </div>
               <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
-
+                
               </div>
             </div>
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://ltzuo.github.io/post/多少人因为怂，错过了喜欢的人">
+              <h3 class="post-title">
+                测试标题  测试标题啊
+              </h3>
+            </a>
+          </div>
         
 
         

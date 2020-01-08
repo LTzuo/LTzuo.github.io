@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ltzuo.github.io</id>
     <title>LTzuo</title>
-    <updated>2020-01-08T08:53:36.512Z</updated>
+    <updated>2020-01-08T09:19:49.740Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ltzuo.github.io"/>
     <link rel="self" href="https://ltzuo.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://ltzuo.github.io/images/avatar.png</logo>
     <icon>https://ltzuo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, LTzuo</rights>
+    <entry>
+        <title type="html"><![CDATA[mysql学习]]></title>
+        <id>https://ltzuo.github.io/post/mysql-xue-xi</id>
+        <link href="https://ltzuo.github.io/post/mysql-xue-xi">
+        </link>
+        <updated>2020-01-08T08:55:40.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试标题  测试标题啊]]></title>
         <id>https://ltzuo.github.io/post/多少人因为怂，错过了喜欢的人</id>
