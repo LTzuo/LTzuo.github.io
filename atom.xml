@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ltzuo.github.io</id>
-    <title>林天佐</title>
-    <updated>2020-01-08T05:22:05.186Z</updated>
+    <title>LTzuo</title>
+    <updated>2020-01-08T05:39:16.449Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ltzuo.github.io"/>
     <link rel="self" href="https://ltzuo.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://ltzuo.github.io/images/avatar.png</logo>
     <icon>https://ltzuo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 林天佐</rights>
+    <rights>All rights reserved 2020, LTzuo</rights>
     <entry>
         <title type="html"><![CDATA[多少人因为怂，错过了喜欢的人]]></title>
         <id>https://ltzuo.github.io/post/多少人因为怂，错过了喜欢的人</id>
