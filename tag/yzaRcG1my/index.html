@@ -3,8 +3,8 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>林同学</title>
-<meta name="description" content="鬼怪啊 鬼怪" />
-<link rel="shortcut icon" href="https://ltzuo.github.io/favicon.ico?v=1578561779837">
+<meta name="description" content="哈哈哈哈哈哈哈" />
+<link rel="shortcut icon" href="https://ltzuo.github.io/favicon.ico?v=1579065557879">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
@@ -24,7 +24,7 @@
       <div class="flex lg:block p-4 lg:px-0 items-center fixed lg:static lg:block top-0 right-0 left-0 bg-white z-50">
         <i class="remixicon-menu-2-line lg:mt-4 text-2xl cursor-pointer animated fadeIn" onclick="openMenu()"></i>
         <a href="https://ltzuo.github.io">
-          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://ltzuo.github.io/images/avatar.png?v=1578561779837" alt="">
+          <img class="animated fadeInLeft avatar rounded-lg mx-4 lg:mt-32 lg:mx-0 mt-0 lg:w-24 lg:h-24 w-12 w-12" src="https://ltzuo.github.io/images/avatar.png?v=1579065557879" alt="">
         </a>
         <h1 class="animated fadeInLeft lg:text-4xl font-extrabold lg:mt-8 mt-0 text-xl" style="animation-delay: 0.2s">林同学</h1>
         <link
@@ -54,9 +54,41 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            文章目录
+            哈哈哈哈哈哈哈
           </p>
-          <div class="toc-container hidden lg:block">
+          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
+            
+              
+                <a href="https://github.com/LTzuo" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-github-line"></i>
+                </a>
+              
+            
+              
+            
+              
+                <a href="https://weibo.com" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-weibo-line"></i>
+                </a>
+              
+            
+              
+                <a href="https://www.zhihu.com/" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
+                  <i class="remixicon-zhihu-line"></i>
+                </a>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
             
           </div>
         </div>
@@ -76,19 +108,25 @@
       
     
       
-        <a href="/archives" class="menu" style="animation-delay: 0.2s">
+        <a href="https://ltzuo.github.io/post/mobjie" class="menu" style="animation-delay: 0.2s">
+          日记
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu" style="animation-delay: 0.4s">
           归档
         </a>
       
     
       
-        <a href="/tags" class="menu" style="animation-delay: 0.4s">
+        <a href="/tags" class="menu" style="animation-delay: 0.6000000000000001s">
           标签
         </a>
       
     
       
-        <a href="/post/about" class="menu" style="animation-delay: 0.6000000000000001s">
+        <a href="/post/about" class="menu" style="animation-delay: 0.8s">
           关于
         </a>
       
@@ -102,94 +140,33 @@
 <div class="mask" onclick="closeMenu()">
 </div>
 
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">mysql学习</h1>
-        <div class="text-sm text-gray-700 lg:my-8">
-          2020-01-08 / 1 min read
-        </div>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
+        <h2 class="text-lg text-gray-700 mb-8">
+          <i class="remixicon-bookmark-line"></i> 运维
+        </h2>
         
-        <div class="post-content yue">
-          <ul>
-<li>在安装好mysql的前提下（设置好开机自启动）</li>
-<li>校验mysql状态</li>
-</ul>
-<pre><code> service mysqld status
-</code></pre>
-<ul>
-<li>用户登录</li>
-</ul>
-<pre><code>mysql -u(用户名) -p(密码)
-</code></pre>
-<ul>
-<li>查看数据库</li>
-</ul>
-<pre><code> show databases;
-</code></pre>
-<ul>
-<li>使用（切换）数据库</li>
-</ul>
-<pre><code> use (数据库名称)
-</code></pre>
-<ul>
-<li>查看表</li>
-</ul>
-<pre><code> show tables
-</code></pre>
-<ul>
-<li>查看表结构</li>
-</ul>
-<pre><code>desc 表名
-</code></pre>
-<ul>
-<li>约束条件</li>
-</ul>
-<pre><code>create table 表名称(
-    字段名称 数据类型[(长度) 约束条件1 约束条件2 ...],
-    ...
-);
-
-</code></pre>
-<p><a href="https://www.cnblogs.com/zj420255586/p/11581251.html#unsigned---%E6%97%A0%E7%AC%A6%E5%8F%B7">1. unsigned - 无符号</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#zerofill---0%E5%A1%AB%E5%85%85">2. zerofill - 0填充</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#not-mull---%E9%9D%9E%E7%A9%BA">3. not mull - 非空</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#default---%E9%BB%98%E8%AE%A4%E5%80%BC">4. default - 默认值</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#unique---%E5%94%AF%E4%B8%80">5. unique - 唯一</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#auto_increment---%E8%87%AA%E5%A2%9E">6. auto_increment - 自增</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#primary-key---%E4%B8%BB%E9%94%AE">7. primary key - 主键</a><br>
-<a href="https://www.cnblogs.com/zj420255586/p/11581251.html#foreign-key---%E5%A4%96%E9%94%AE">8. foreign key - 外键</a></p>
-<ul>
-<li>删除表 drop 表名；</li>
-<li>修改表结构</li>
-</ul>
-<pre><code>  #添加列       
-  alter  table 表名 add 字段 类型(长度) 约束;
-  #修改列        
-  alter table 表名 modify 字段 类型(长度)约束；
-</code></pre>
-<p>9、删除表内容   delete from students;<br>
-delete from students where id=1;</p>
-
+  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
+    
+      <a href="https://ltzuo.github.io/post/mobjie" class="feature-image-wrapper bg-gray-100 rounded-lg flex-shrink-0 mr-8 w-full h-56 h-32 md:w-56 md:h-40">
+        <div class="post-feature-image lazy w-full h-56 h-32 md:w-56 md:h-40" data-bg="'http://mgtportal.mobje.faw-vw.com/rcs/assets/admin/pages/img/bgshow.jpg'">
         </div>
-
+      </a>
+    
+    <div class="content">
+      <a href="https://ltzuo.github.io/post/mobjie">
+        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">摩捷运维工作记录</h2>
+      </a>
+      <div class="post-abstract text-gray-700 font-light my-4">
         
+      </div>
+      <div class="text-gray-400 text-sm font-light">2020-01-15 / 1 min read</div>
+    </div>
+  </section>
 
-
-        <div class="flex justify-between py-8">
-          
-
-          
-            <div class="next-post">
-              <a href="https://ltzuo.github.io/post/ce-shi-biao-ti-ce-shi-biao-ti-a">
-                <h3 class="post-title">
-                  测试标题  测试标题啊
-                  <i class="remixicon-arrow-right-line"></i>
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-
-        
+        <div class="pagination-container animated fadeIn">
+  
+  
+</div>
 
       </div>
     </div>
